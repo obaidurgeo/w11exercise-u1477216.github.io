@@ -1,3 +1,10 @@
+#header h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    text-align: center; /* Center the heading */
+    margin: 0; /* Remove default margin */
+    padding: 10px 0; /* Add some padding above and below the heading */
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
