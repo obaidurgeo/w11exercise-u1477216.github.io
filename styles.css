@@ -5,10 +5,10 @@ body {
 }
 
 #header, #footer {
-    background-color: #DDD; /* Light grey background */
+    background-color: #DDD;
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid #AAA; /* Border for header */
+    border-bottom: 1px solid #AAA;
 }
 
 #header h1 {
@@ -23,9 +23,9 @@ body {
 
 #left-navigation {
     width: 20%;
-    background-color: #EEE; /* Slightly lighter grey background */
+    background-color: #EEE;
     padding: 10px;
-    border-right: 1px solid #AAA; /* Border for left navigation */
+    border-right: 1px solid #AAA;
 }
 
 .main-content {
@@ -42,16 +42,19 @@ body {
 
 .profile-container {
     display: flex;
-    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
-.profile-picture {
+.profile-image {
+    flex-basis: 200px;
+    flex-grow: 1;
     flex-shrink: 0;
     margin-right: 20px;
+    border: 1px solid #000;
 }
 
 .profile-info {
-    max-width: 600px;
+    flex-grow: 1;
 }
 
 .profile-info h1, .profile-info h2 {
