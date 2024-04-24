@@ -1,8 +1,8 @@
 #header h1 {
-    font-size: 24px; /* Adjust the font size as needed */
-    text-align: center; /* Center the heading */
-    margin: 0; /* Remove default margin */
-    padding: 10px 0; /* Add some padding above and below the heading */
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
 }
 
 body {
@@ -12,10 +12,10 @@ body {
 }
 
 #header, #footer {
-    background-color: #DDD; /* Light grey background */
+    background-color: #DDD;
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid #AAA; /* Border for header */
+    border-bottom: 1px solid #AAA;
 }
 
 #main-container {
@@ -24,9 +24,9 @@ body {
 
 #left-navigation {
     width: 20%;
-    background-color: #EEE; /* Slightly lighter grey background */
+    background-color: #EEE;
     padding: 10px;
-    border-right: 1px solid #AAA; /* Border for left navigation */
+    border-right: 1px solid #AAA;
 }
 
 .main-content {
@@ -43,7 +43,7 @@ body {
 
 img {
     display: block;
-    margin: 0 auto 10px; /* Center image */
+    margin: 0 auto 10px;
 }
 
 ul {
@@ -52,7 +52,7 @@ ul {
 }
 
 h2 {
-    border-bottom: 1px solid #AAA; /* Border under section headings */
+    border-bottom: 1px solid #AAA; 
     padding-bottom: 5px;
 }
 
@@ -60,3 +60,14 @@ h2 {
     text-align: center;
     font-size: 0.8em;
 }
+
+.profile-info ul {
+    list-style-type: disc;
+    margin-left: 20px; 
+    padding-left: 0; 
+}
+
+.profile-info li {
+    margin-bottom: 5px; 
+}
+
