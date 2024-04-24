@@ -42,37 +42,28 @@ body {
 
 .profile-container {
     display: flex;
-    flex-wrap: wrap;
+    margin-bottom: 20px; /* Space between image and research interests */
 }
 
-.profile-image {
-    flex-basis: 200px;
-    flex-grow: 1;
-    flex-shrink: 0;
-    margin-right: 20px;
-    border: 1px solid #000;
+.profile-container img {
+    margin-right: 20px; /* Space between image and profile details */
 }
 
-.profile-info {
-    flex-grow: 1;
+.profile-details {
+    flex: 1;
 }
 
-.profile-info h1, .profile-info h2 {
+.research-interests h2 {
     margin-top: 0;
 }
 
-.profile-info ul {
+.research-interests ul {
     list-style-type: disc;
     margin-left: 20px;
-    padding-left: 0;
 }
 
-.profile-info li {
+.research-interests li {
     margin-bottom: 5px;
-}
-
-.profile-info p {
-    margin-bottom: 10px;
 }
 
 #footer p {
