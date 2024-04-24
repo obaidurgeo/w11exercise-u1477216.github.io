@@ -42,15 +42,22 @@ body {
 
 .profile-container {
     display: flex;
-    margin-bottom: 20px; /* Space between image and research interests */
+    align-items: flex-start; /* Align the items to the top */
+    margin-bottom: 20px; /* Space between profile and research interests */
 }
 
 .profile-container img {
-    margin-right: 20px; /* Space between image and profile details */
+    margin-right: 40px; /* Increase space between image and text */
+    width: 200px; /* Fixed width */
+    height: 200px; /* Fixed height */
 }
 
 .profile-details {
     flex: 1;
+}
+
+.research-interests {
+    margin-top: 20px; /* Space above research interests section */
 }
 
 .research-interests h2 {
